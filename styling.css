@@ -1,0 +1,26 @@
+body {
+    background-image: url("https://media.thepopverse.com/media/krabby-patty-image-1f3i5bdxcaqfvbeklc5bh1vr2u.jpg");
+
+}
+
+p {
+    font-family: "Papyrus";
+}
+
+Button:hover
+{
+    cursor: pointer;
+    font-size:25px;
+}
+button {
+    background-color:transparent;
+    padding: 250px;
+    margin-left:38%;
+    margin-top:6%;
+    border-color:transparent;
+    font-size:20px;
+}
+
+h2{
+    margin-left: 50%;
+}
