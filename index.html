@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Borger Clicker</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+
+    <body>
+        <h1>Welcome to Borger Clicker</h1>
+        <h2 class="clickyheader">Clicks: <a id="clicks">0</a></h2>
+        <p><strong>Click the Borger</strong></p>
+        <button type="button" onClick="onClick()"><strong>Click Me!</strong></button>
+        <p>Refresh page to restart</p>
+    </body>
+
+    <script>
+        var clicks = 0;
+        function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;};
+    </script>
+  
+</html>
